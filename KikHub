@@ -130,4 +130,4 @@ local QuestData = {
     }
 }
 
-return QuestData
+getgenv().QuestData = QuestData
