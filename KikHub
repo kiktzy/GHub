@@ -1,0 +1,133 @@
+-- Blox Fruits Quest & NPC Data
+
+local QuestData = {
+    {
+        Name = "Bandit Quest Giver",
+        Position = Vector3.new(1058.968, 12.666, 1551.814),
+        Quests = {
+            { Name = "Bandit", Level = 1, EnemyPosition = Vector3.new(1219.018, 16.681, 1677.489) }
+        }
+    },
+    {
+        Name = "Adventurer",
+        Position = Vector3.new(-1598.089, 35.950, 153.378),
+        Quests = {
+            { Name = "Monkey", Level = 10, EnemyPosition = Vector3.new(-1610.470, 20.980, -48.050) },
+            { Name = "Gorilla", Level = 15, EnemyPosition = Vector3.new(-1249.190, 8.230, -456.190) },
+            { Name = "The Gorilla King", Level = 20, Boss = true, EnemyPosition = Vector3.new(-1088.760, 8.230, -488.560) }
+        }
+    },
+    {
+        Name = "Pirate Adventurer",
+        Position = Vector3.new(-1141.075, 1.100, 3831.550),
+        Quests = {
+            { Name = "Pirate", Level = 30, EnemyPosition = Vector3.new(-1269.513, 5.600, 3857.158) },
+            { Name = "Brute", Level = 40, EnemyPosition = Vector3.new(-862.890, 15.600, 4281.956) },
+            { Name = "Chef", Level = 55, Boss = true, EnemyPosition = Vector3.new(-1132.916, 28.360, 4105.255) }
+        }
+    },
+    {
+        Name = "Desert Adventurer",
+        Position = Vector3.new(894.489, 5.590, 4392.434),
+        Quests = {
+            { Name = "Desert Bandit", Level = 60, EnemyPosition = Vector3.new(859.815, 7.565, 4488.060) },
+            { Name = "Desert Officer", Level = 75, EnemyPosition = Vector3.new(1671.769, 9.748, 4392.888) }
+        }
+    },
+    {
+        Name = "Villager",
+        Position = Vector3.new(1387.188, 86.621, -1295.045),
+        Quests = {
+            { Name = "Snow Bandit", Level = 90, EnemyPosition = Vector3.new(1273.748, 88.790, -1345.840) },
+            { Name = "Snowman", Level = 100, EnemyPosition = Vector3.new(1148.249, 106.810, -1429.320) },
+            { Name = "Yeti", Level = 105, Boss = true, EnemyPosition = Vector3.new(1121.160, 110.840, -1537.130) }
+        }
+    },
+    {
+        Name = "Marine",
+        Position = Vector3.new(-5039.587, 27.598, 4324.680),
+        Quests = {
+            { Name = "Chief Petty Officer", Level = 120, EnemyPosition = Vector3.new(-5121.351, 20.5, 4059.598) },
+            { Name = "Vice Admiral", Level = 130, Boss = true, EnemyPosition = Vector3.new(-5142.483, 101.5, 4447.429) }
+        }
+    },
+    {
+        Name = "Sky Adventurer",
+        Quests = {
+            { Name = "Sky Bandit", Level = 150, EnemyPosition = Vector3.new(-4944.969, 277.915, -2784.906) },
+            { Name = "Dark Master", Level = 175, EnemyPosition = Vector3.new(-5244.182, 387.352, -2155.013) }
+        }
+    },
+    {
+        Name = "Jail Keeper",
+        Position = Vector3.new(5310.605, 0.350, 474.947),
+        Quests = {
+            { Name = "Prisoner", Level = 190, EnemyPosition = Vector3.new(5089.779, -0.300, 423.665) },
+            { Name = "Dangerous Prisoner", Level = 210, EnemyPosition = Vector3.new(4955.915, -0.5, 925.530) }
+        }
+    },
+    {
+        Name = "Head Jailer",
+        Position = Vector3.new(5191.861, 2.840, 686.439),
+        Quests = {
+            { Name = "Warden", Level = 220, Boss = true, EnemyPosition = Vector3.new(5278.046, 0.391, 944.101) },
+            { Name = "Chief Warden", Level = 230, Boss = true, EnemyPosition = Vector3.new(5206.927, 0.391, 814.976) },
+            { Name = "Swan", Level = 240, Boss = true, EnemyPosition = Vector3.new(5325.094, 8.636, 719.569) }
+        }
+    },
+    {
+        Name = "Colosseum Quest Giver",
+        Position = Vector3.new(-1580.047, 7.200, -2986.476),
+        Quests = {
+            { Name = "Toga Warrior", Level = 250, EnemyPosition = Vector3.new(-2128.411, 7.879, -2853.248) },
+            { Name = "Gladiator", Level = 275, EnemyPosition = Vector3.new(-1483.704, 7.946, -3195.212) }
+        }
+    },
+    {
+        Name = "The Mayor",
+        Position = Vector3.new(-5313.370, 11.25, 8515.294),
+        Quests = {
+            { Name = "Millitary Soldier", Level = 300, EnemyPosition = Vector3.new(-5287.200, 9.100, 8659.865) },
+            { Name = "Millitary Spy", Level = 324, EnemyPosition = Vector3.new(-5806.701, 78.5, 8904.470) },
+            { Name = "Magma Admiral", Level = 350, Boss = true, EnemyPosition = Vector3.new(-5521.602, 19.800, 8753.470) }
+        }
+    },
+    {
+        Name = "King Neptune",
+        Position = Vector3.new(61121.270, 18.874, 1564.884),
+        Quests = {
+            { Name = "Fishman Warrior", Level = 375, EnemyPosition = Vector3.new(60948.902, 17.949, 1377.111) },
+            { Name = "Fishman Commando", Level = 400, EnemyPosition = Vector3.new(61858.898, 18.080, 1695.111) },
+            { Name = "Fishman Lord", Level = 425, Boss = true, EnemyPosition = Vector3.new(61352.902, 35.061, 1029.111) }
+        }
+    },
+    {
+        Name = "Mole",
+        Position = Vector3.new(-7858.440, 5544.490, -381.783),
+        Quests = {
+            { Name = "God's Guard", Level = 475, EnemyPosition = Vector3.new(-4863.417, 841.985, -1909.681) },
+            { Name = "Shanda", Level = 475, EnemyPosition = Vector3.new(-7858.440, 5544.490, -381.783) },
+            { Name = "Wysper", Level = 500, Boss = true, EnemyPosition = Vector3.new(-7995.297, 5542.341, -709.275) }
+        }
+    },
+    {
+        Name = "Sky Quest Giver 2",
+        Position = Vector3.new(-7904.685, 5634.661, -1409.967),
+        Quests = {
+            { Name = "Royal Squad", Level = 525, EnemyPosition = Vector3.new(-7513.950, 5606.937, -1421.013) },
+            { Name = "Royal Soldier", Level = 550, EnemyPosition = Vector3.new(-7946.950, 5606.937, -1824.013) },
+            { Name = "Thunder God", Level = 575, Boss = true, EnemyPosition = Vector3.new(-7779.261, 5606.937, -2421.950) }
+        }
+    },
+    {
+        Name = "FreezeBurg Quest Giver",
+        Position = Vector3.new(5259.771, 37.713, 4050.025),
+        Quests = {
+            { Name = "Galley Pirate", Level = 625, EnemyPosition = Vector3.new(5348.283, 39.349, 3953.255) },
+            { Name = "Galley Captain", Level = 650, EnemyPosition = Vector3.new(5584.008, 60.349, 4856.399) },
+            { Name = "Cyborg", Level = 675, Boss = true, EnemyPosition = Vector3.new(6216.625, 4.181, 3990.004) }
+        }
+    }
+}
+
+return QuestData
